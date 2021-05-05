@@ -1,0 +1,547 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #D91A8C;
+}
+
+.position-ass-bali {
+  margin-top: 80px;
+}
+
+.ass-bali {
+  color: #ffffff;
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+.invisible {
+  display: none;
+}
+
+.for-desktop {
+  display: none;
+}
+
+.row-bali {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+}
+
+/*FONTS*/
+@font-face {
+  font-family: Melburch;
+  src: url(../fonts/Melburch.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Melburch-outline;
+  src: url(../fonts/Melburch-outline.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Tofino-bold;
+  src: url(../fonts/TofinoPersonal-Bold.otf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Tofino-black;
+  src: url(../fonts/TofinoPersonal-Black.otf);
+  font-weight: normal;
+}
+
+.navbar a {
+  font-family: Tofino-bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.w100 {
+  width: 100vw !important;
+  background: #D91A8C;
+}
+
+.h-100 {
+  height: 100vh;
+}
+
+.nav-bg {
+  background-color: #D91A8C;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, .5);
+  border-color: rgba(160, 86, 86, 0);
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.logo {
+  position: relative;
+  width: 87px;
+  height: 66px;
+}
+
+.title-container {
+  left: 0;
+  top: 0;
+  z-index: 2;
+  align-content: center;
+  width: 100%;
+  background-color: #D91A8C;
+}
+
+.title {
+  padding-top: 100px;
+  margin: 0px 20px 0px 20px;
+  font-family: Melburch-outline;
+  font-size: 45.8182px;
+  line-height: 44px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.espaco-col-resp {
+  margin-top: 40px;
+}
+
+.section-1 {
+  height: 75vh;
+}
+
+.galeria-artistas {
+  margin-top: 100px;
+}
+
+/* end Section 1 */
+/* Section 2 */
+.section-2 {
+  height: 50vh;
+  padding-top: 50px;
+}
+
+.features {
+  margin: 0px 20px 0px 20px;
+  font-family: Melburch-outline;
+  font-size: 18;
+  line-height: 40px;
+  text-align: center;
+  color: #FFCC00;
+  margin-bottom: 5px;
+}
+
+.top-spacing {
+  margin-top: 15px;
+}
+
+.espaco-features {
+  margin-top: 50px;
+}
+
+.carousel-control-prev {
+  left: -10px;
+}
+
+.carousel-control-next {
+  right: -10px;
+}
+
+.hashtag {
+  font-family: Melburch;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 11px;
+  background-color: #5A1B60;
+  padding: 10px 20px;
+  color: #FFCC00;
+}
+
+.titulo {
+  font-family: Tofino-black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFCC00;
+}
+
+.artistas {
+  list-style-type: none;
+  /* Remove bullets */
+  padding: 0;
+  /* Remove padding */
+  margin: 0;
+  /* Remove margins */
+  font-family: Tofino-bold;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section-3 {
+  height: 55vh;
+  padding-top: 90px;
+}
+
+.espaco-galeria {
+  margin-top: 40px;
+}
+
+.titulo-galeria {
+  margin: 0px 20px 0px 20px;
+  font-family: Melburch-outline;
+  font-size: 18;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.tamanho-galeria {
+  max-width: 280px;
+}
+
+.titulo-covid {
+  align-content: center;
+  text-align: center;
+  background: #5A1B60;
+  margin-bottom: 20px;
+  font-size: 14px;
+  padding: 15px 30px;
+  font-family: Melburch;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  /* identical to box height */
+  color: #ffffff;
+}
+
+.texto-covid {
+  margin: 0 20px 0 20px;
+  font-family: Tofino-bold;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section-4 {
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.section-5 {
+  height: 50vh;
+}
+
+.btn {
+  background-color: #4caf5000;
+  border: none;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:active,
+.btn.active {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-comprar-container {
+  overflow: scroll;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  align-content: center;
+  width: 100%;
+}
+
+.btn-comprar {
+  align-content: center;
+  text-align: center;
+  background: #FFCC00;
+  margin-bottom: 120px;
+  font-size: 18.439px;
+  padding: 20px 50px;
+  font-family: Melburch;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.439px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.casas-esq {
+  overflow: scroll;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  align-content: center;
+  width: 15%;
+}
+
+.icons-mobile {
+  overflow: scroll;
+  position: fixed;
+  bottom: 0;
+  z-index: 4;
+  align-content: center;
+  width: 30%;
+}
+
+.casas-dir {
+  overflow: scroll;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  align-content: center;
+  width: 15%;
+}
+
+.pink-box {
+  overflow: scroll;
+  position: fixed;
+  left: 0 right: 0;
+  bottom: 0;
+  z-index: 2;
+  align-content: center;
+  background-color: #D91A8C;
+  height: 50px;
+}
+
+/* iPhone SE */
+@media (max-width: 360px) {
+  .navbar {
+    padding: .5rem .5rem;
+  }
+
+  .section-1 {
+    height: 75vh;
+  }
+
+  .title {
+    padding-top: 90px;
+    font-size: 32px;
+    line-height: 30px;
+  }
+
+  .galeria-artistas {
+    margin-top: 40px;
+  }
+
+  .section-2 {
+    padding-top: 50px;
+  }
+
+  .section-3 {
+    height: 55vh;
+    padding-top: 90px;
+  }
+
+  .section-5 {
+    height: 100vh;
+  }
+
+  .casas-esq {
+    width: 15%;
+  }
+
+  .icons-mobile {
+    width: 60%;
+    bottom: -20px;
+  }
+
+  .casas-dir {
+    width: 15%;
+  }
+
+  .btn-comprar {
+    margin-bottom: 20px;
+  }
+
+  .pink-box {
+    height: 120px;
+  }
+}
+
+/* iPhone6/7/8 */
+@media (max-width: 375px) {
+
+  .section-1 {
+    height: 75vh;
+  }
+
+  .section-2 {
+    height: 60vh;
+  }
+
+  .section-4 {
+    height: 120vh;
+  }
+
+  .title {
+    padding-top: 90px;
+    font-size: 40px;
+  }
+
+  .galeria-artistas {
+    margin-top: 40px;
+  }
+
+  .casas-esq {
+    width: 15%;
+  }
+
+  .icons-mobile {
+    width: 60%;
+    bottom: -20px;
+  }
+
+  .casas-dir {
+    width: 15%;
+  }
+
+  .btn-comprar {
+    margin-bottom: 60px;
+  }
+
+  .pink-box {
+    height: 120px;
+  }
+}
+
+/* iPhone6/7/8 Plus */
+@media (max-width: 414px) {
+  .section-1 {
+    height: 75vh;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+  .section-2 {
+    padding-top: 60px;
+  }
+
+  .section-3 {
+    height: 55vh;
+    padding-top: 90px;
+  }
+
+  .section-4 {
+    height: 120vh;
+  }
+
+  .casas-esq {
+    width: 18%;
+  }
+
+  .icons-mobile {
+    width: 60%;
+    bottom: -20px;
+  }
+
+  .casas-dir {
+    width: 18%;
+  }
+
+  .btn-comprar {
+    margin-bottom: 15px;
+  }
+
+  .pink-box {
+    height: 100px;
+  }
+}
+
+/* iPhonex */
+@media (max-width: 375px) {
+  .title {
+    font-size: 42px;
+    line-height: 38px;
+  }
+
+  .section-1 {
+    height: 75vh;
+  }
+
+  .embed-responsive {
+    max-width: 80%;
+  }
+
+  .galeria-artistas {
+    margin-top: 30px;
+  }
+
+  .section-3 {
+    padding-top: 90px;
+  }
+
+  .casas-esq {
+    width: 25%;
+  }
+
+  .icons-mobile {
+    width: 80%;
+  }
+
+  .casas-dir {
+    width: 25%;
+  }
+
+  .pink-box {
+    height: 30px;
+  }
+}
+
+/* iPhoneXR-Xs Max */
+@media (max-width: 414px) and (min-height: 896px) {
+  .section-1 {
+    height: 75vh;
+  }
+
+  .casas-esq {
+    width: 25%;
+  }
+
+  .icons-mobile {
+    width: 80%;
+  }
+
+  .casas-dir {
+    width: 25%;
+  }
+
+  .pink-box {
+    height: 140px;
+  }
+}
